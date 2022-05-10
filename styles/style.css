@@ -87,3 +87,22 @@ body{
 .interactive__subtitle{
     color: #797979;
 }
+.interactive__button{
+    margin-top: 12rem;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.btn-interactive{
+    text-transform: uppercase;
+    color: #fff;
+    background: #000;
+    padding: 1rem 1.5rem;
+
+}
+
+.btn-interactive:hover{
+    cursor:pointer;
+}
