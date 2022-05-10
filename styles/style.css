@@ -1,3 +1,5 @@
+/*общие стили*/
+
 body{
     font-family: 'Josefin-Sans';
     margin: 0;
@@ -10,6 +12,7 @@ body{
 
     
 }
+/* шапка*/
 .header{
     color: #fff;
     background: url(./images/desktop/image-hero.jpg) no-repeat;
@@ -31,6 +34,7 @@ body{
     font-size: 20px;
     font-weight: 700;
 }
+/*меню*/
 .menu__items{
     list-style: none;
     display: flex;
@@ -53,4 +57,33 @@ body{
     border:  2px solid #fff;
     padding: 1.5rem;
 
+}
+/*интерактив*/
+
+.interective__wrapper{
+    position: relative;
+    margin-top: 16rem;   
+}
+.interective__img{
+    position: absolute;
+   nav-left: 0;
+}
+.interective__text{
+    position: absolute;
+    top: 200px;
+    right: 0;
+    background: #fff;
+    padding: 9rem ;
+    font-family: 'Alata';
+    
+}
+.interactive__title{
+    display: flex;
+    text-transform: uppercase;
+    font-family: 'Josefin-Sans';
+    font-size: 40px;
+
+}
+.interactive__subtitle{
+    color: #797979;
 }
