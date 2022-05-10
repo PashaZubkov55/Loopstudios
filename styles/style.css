@@ -61,20 +61,17 @@ body{
 /*интерактив*/
 
 .interective__wrapper{
-    position: relative;
     margin-top: 16rem;   
-}
-.interective__img{
-    position: absolute;
-   nav-left: 0;
+    display: flex;
 }
 .interective__text{
-    position: absolute;
+    position: relative;
     top: 200px;
     right: 0;
     background: #fff;
     padding: 9rem ;
     font-family: 'Alata';
+    right: 150px;
     
 }
 .interactive__title{
@@ -86,6 +83,7 @@ body{
 }
 .interactive__subtitle{
     color: #797979;
+    white-space: nowrap;
 }
 .interactive__button{
     margin-top: 12rem;
@@ -105,4 +103,9 @@ body{
 
 .btn-interactive:hover{
     cursor:pointer;
+}
+
+.creations__wrapper{
+    position: relative;
+    bottom:1;
 }
