@@ -58,7 +58,7 @@ body{
     padding: 1.5rem;
 
 }
-/*интерактив*/
+/*interactive*/
 
 .interective__wrapper{
     margin-top: 16rem;   
@@ -69,7 +69,8 @@ body{
     top: 200px;
     right: 0;
     background: #fff;
-    padding: 9rem ;
+   padding-top: 3rem;
+   padding-left: 8rem;
     font-family: 'Alata';
     right: 150px;
     
@@ -109,3 +110,58 @@ body{
     position: relative;
     bottom:1;
 }
+
+/*criations*/
+.criations__title{
+    display: flex;
+    text-transform: uppercase;
+    font-family: 'Josefin-Sans';
+    font-size: 40px;
+    margin-top: 9rem;  
+}
+.criations__wraper{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.criations__items>img{
+    position: absolute;
+}
+
+.creations__item>.criations__title{
+    text-align: center;
+   
+
+}
+.criations__items{
+    display: flex;
+    margin-top: 5rem;
+
+}
+.criations__item{
+    position: relative;
+    color: #fff;
+    
+}
+
+
+.criations__item-align{
+    margin-left: 3.4rem;
+}
+.criations__item:hover{
+    cursor: pointer;
+    color: #0a0a0a;
+    opacity: 0.6;
+    
+}
+.creations__title--cardCreates{
+    margin-top: 0;
+    position: absolute;
+    bottom: 1rem;
+    left: 1.3rem;
+   
+
+
+}
+
