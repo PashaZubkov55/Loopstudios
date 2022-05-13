@@ -6,8 +6,12 @@ body{
     padding:0;
     
 }
+ *{
+    padding: 0;
+    margin: 0;
+}
 .container{
-   max-width: 1400px;
+   max-width: 1200px;
     margin: 0 auto;
 
     
@@ -39,8 +43,8 @@ body{
     list-style: none;
     display: flex;
 }
-.menu__item{
-    margin-left: 2.5rem;
+.menu__item-align{
+    margin-left: 1rem;
 }
 .menu__item:hover{
     cursor:pointer;
@@ -71,6 +75,7 @@ body{
     background: #fff;
    padding-top: 3rem;
    padding-left: 8rem;
+   padding-right: 8rem;
     font-family: 'Alata';
     right: 150px;
     
@@ -160,8 +165,38 @@ body{
     position: absolute;
     bottom: 1rem;
     left: 1.3rem;
-   
-
-
 }
 
+/*fotter*/
+
+.footer{
+    background-color: #000;
+    color: #fff;
+}
+.footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+
+}
+.footer__logo{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.footer__icons{
+    display: flex;
+}
+.footer__text{
+    margin-top: 2rem;
+}
+.footer__icon-align{
+    margin-left: 1rem;
+}
+.footer__icon:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+
+}
