@@ -154,16 +154,18 @@ body{
 .criations__item-align{
     margin-left: 3.4rem;
 }
+
 .criations__item:hover{
     cursor: pointer;
     color: #0a0a0a;
-    opacity: 0.6;
     
 }
+
+
 .creations__title--cardCreates{
     margin-top: 0;
     position: absolute;
-    bottom: 1rem;
+    bottom: 2rem;
     left: 1.3rem;
 }
 
