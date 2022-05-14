@@ -1,6 +1,6 @@
-const criationsItem =  document.querySelectorAll('.criations__item')
- const criationsImg = document.querySelectorAll('.criations__img')
+const criationsImg = document.querySelectorAll('.criations__img')
 const  criationsTitle = document.querySelectorAll(".criations__title");
+
 
 
 
@@ -18,6 +18,3 @@ criationsImg.forEach(function(elem) {
      
     });
 });
-
-
-

@@ -6,6 +6,7 @@ body{
     padding:0;
     
 }
+
  *{
     padding: 0;
     margin: 0;
@@ -42,13 +43,29 @@ body{
 .menu__items{
     list-style: none;
     display: flex;
+    color: #fff;
+    font-weight: bold;
+}
+.menu__item{
+    position: relative;
+}
+/*полоска при наведении*/
+.menu__item:hover::after{
+    position: absolute;
+    content: "";
+    width: 2rem;
+    height: 0.3rem;
+    background-color: #fff;
+    top: 2rem;
+    left: 15%;
+    
 }
 .menu__item-align{
     margin-left: 1rem;
 }
 .menu__item:hover{
     cursor:pointer;
-    border-bottom: 2px solid #fff;
+
 }
 
 .header__subtitle{
@@ -174,10 +191,13 @@ body{
 .footer{
     background-color: #000;
     color: #fff;
+
+    
 }
 .footer__wrapper{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 16rem;
     padding-top: 4rem;
     padding-bottom: 2rem;
@@ -187,12 +207,15 @@ body{
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 2rem;
+    font-family: 'Alata';
+    
 }
 .footer__icons{
     display: flex;
 }
 .footer__text{
     margin-top: 2rem;
+    color: '#575757';
 }
 .footer__icon-align{
     margin-left: 1rem;
