@@ -21,7 +21,7 @@ body{
 .header{
     color: #fff;
     background: url(./images/desktop/image-hero.jpg) no-repeat;
-    background-size: 100%;
+    background-size: cover;
     font-family: 'Alata';
 
 }
@@ -224,4 +224,97 @@ body{
     cursor: pointer;
     border-bottom: 1px solid #fff;
 
+}
+
+
+
+
+.img-desktop{
+    display: block;
+}
+.btn-criations{
+    display: none;
+}
+.img-mobile{
+    display: none;
+}
+@media(max-width:1200px){
+    .container{
+        max-width: 800px;
+    }
+    .img-mobile{
+        display: block;
+        margin-top: 1rem;
+    }
+    .img-desktop{
+        display: none;
+    }
+    .criations__items{
+     flex-direction: column;
+
+    }
+    .criations__item-align{
+        margin-left: 0;
+    }
+    .interective__wrapper{
+        flex-direction: column;
+
+    }
+    .interective__text{
+        position: static;
+        text-align: center;
+    }
+    .interactive__title{
+        justify-content: center;
+    }
+    .criations__title{
+        margin-top: 15rem;
+        justify-content: center;
+    }
+    .interactive__button{
+        display: none;
+    }
+    .btn-criations{
+        display: flex;
+        text-transform: uppercase;
+        padding: 1.5rem 4rem;
+        margin-top: 6rem;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid #000; 
+        background-color: #fff;  
+        font-size: 20px;
+       
+    }
+    .btn-criations:hover{
+       cursor: pointer;
+    }
+    .header{
+        background: url(./images/mobile/image-hero.jpg) no-repeat;
+        background-size: cover;
+    }
+}
+@media(max-width:768px){
+    .container{
+        max-width: 668px;
+    }
+    .footer__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu__items-mobile{
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+    }
+    .menu__items-mobile>.menu__item{
+        margin-top: 2rem;
+
+    }
+    .footer__icons{
+        justify-content: center;
+        margin-top: 2rem;
+    }
 }
